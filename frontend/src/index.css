@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@theme {
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --color-ink: #10231f;
+  --color-pine: #0f5c4d;
+  --color-mint: #dff3ec;
+  --color-paper: #f6f8f7;
+}
+body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); }
+h1, h2, h3 { font-family: var(--font-display); }
+.card { background: white; border: 1px solid #dfe7e4; border-radius: 14px; padding: 1.25rem; }
+.btn { background: var(--color-pine); color: white; border-radius: 10px; padding: .65rem 1.1rem; font-weight: 600; }
+.btn:hover { background: #0b4a3e; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.btn-ghost { border: 1px solid #c5d3ce; border-radius: 10px; padding: .65rem 1.1rem; font-weight: 600; background: white; }
+.input { width: 100%; border: 1px solid #c5d3ce; border-radius: 10px; padding: .65rem .8rem; background: white; }
+:focus-visible { outline: 2px solid var(--color-pine); outline-offset: 2px; }

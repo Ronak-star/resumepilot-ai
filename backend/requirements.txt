@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic>=2
+pymupdf
+python-dotenv
+google-genai
+langgraph
